@@ -11287,7 +11287,7 @@ p {
 }
 
 .text-faded {
-  color:blue;
+  color:white;
 }
 
 .site-heading {
@@ -11328,7 +11328,7 @@ p {
 }
 
 .bg-faded {
-  background-color: rgba(0, 100, 200);
+  background-color: rgba(230, 230, 250);
 }
 
 .btn-xl {
@@ -11385,7 +11385,7 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(0, 20, 120, 0.9);
+  background-color:rgba(0, 0, 150, 0.4);
 }
 .cta .cta-inner {
   position: relative;
@@ -11405,7 +11405,7 @@ p {
 }
 
 .footer {
-  background-color: rgba(0, 0, 20, 0.9);
+  background-color: rgba(12, 0, 2, 0.5);
 }
 
 .intro {
