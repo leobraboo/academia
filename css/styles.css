@@ -11393,13 +11393,22 @@ p {
 }
 
 .plane-primary{
-  
-  width: 20%;
+
+  width: 25%;
+  margin: 20px;
   height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
   border: solid 2px pink;
+}
+
+.map{
+  display: flex;
+  height: auto;
+  width: auto;
+  align-items: center;
+  justify-content: center;
 }
 
 .cta {
