@@ -11382,6 +11382,26 @@ p {
   }
 }
 
+.plane{
+  width: auto;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border: solid 2px yellow;
+  
+}
+
+.plane-primary{
+  
+  width: 20%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px pink;
+}
+
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
