@@ -11303,8 +11303,8 @@ p {
   font-weight: 800;
 }
 .site-heading .site-heading-lower {
-  font-size: 5rem;
-  font-weight: 100;
+  font-size: 7rem;
+  font-weight: 600;
   line-height: 4rem;
 }
 
@@ -11398,9 +11398,11 @@ p {
   margin: 20px;
   height: 50vh;
   display: flex;
-  align-items: center;
+  border-radius: 20px;
   justify-content: center;
   border: solid 2px pink;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
 }
 
 .map{
