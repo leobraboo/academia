@@ -30,7 +30,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 0,0, 250;
+  --bs-primary-rgb: 30,144,255;
   --bs-secondary-rgb: 47, 23, 15;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -11306,6 +11306,7 @@ p {
   font-size: 7rem;
   font-weight: 600;
   line-height: 4rem;
+  text-shadow: 0.3rem 0.5rem 0.3rem blue;
 }
 
 .page-section {
