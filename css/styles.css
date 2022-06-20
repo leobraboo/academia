@@ -7705,7 +7705,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(240,230,140);
 }
 
 .text-secondary {
@@ -11301,12 +11301,13 @@ p {
   display: block;
   font-size: 2rem;
   font-weight: 800;
+  text-shadow: 0.3rem 0.5rem 0.3rem MidnightBlue;
 }
 .site-heading .site-heading-lower {
   font-size: 7rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 4rem;
-  text-shadow: 0.3rem 0.5rem 0.3rem blue;
+  text-shadow: 0.3rem 0.5rem 0.3rem MidnightBlue;
 }
 
 .page-section {
