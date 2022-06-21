@@ -11386,12 +11386,14 @@ p {
 
 .containercard{
   width: 100%;
-  height: 60vh;
+  height: auto;
   align-items: center;
   justify-content: center;
   display: flex;
   flex-wrap: wrap; 
 }
+
+
 
 .plane-primary{
 
@@ -11406,6 +11408,20 @@ p {
   border-radius: 15px;
   background: rgb(23, 23, 103);
   color: white;
+}
+
+@media(max-width: 650px){
+  .plane-primary{
+    width: 70% ;
+    height: 60vh;
+
+  }
+
+  .plane-primary:hover{
+    height: 75vh !important;
+    width: 85% !important;
+    
+  }
 }
 
 .headcard{
@@ -11450,7 +11466,7 @@ p {
 .plano:hover{
   color: white;
   padding: 10px 50px;
-  background: #04414d;
+  background: #191970;
 }
 
 .plane-primary:hover{
@@ -11476,7 +11492,7 @@ p {
 .cta .cta-inner {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: auto;
 }
 .cta .cta-inner:before {
   border-radius: 0.5rem;
