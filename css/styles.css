@@ -11455,7 +11455,8 @@ p {
 
 .plane-primary:hover{
   height: 55vh;
-  border: solid 3px rgb(6, 250, 197);
+  width: 27%;
+  border: solid 8px rgb(6, 250, 197);
   flex-direction: column;
 }
 
@@ -11475,9 +11476,7 @@ p {
 .cta .cta-inner {
   position: relative;
   width: 100%;
-  height: auto;
-  padding: 3rem;
-  margin: 0.5rem;
+  height: 100vh;
 }
 .cta .cta-inner:before {
   border-radius: 0.5rem;
