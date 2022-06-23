@@ -99,7 +99,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-image: url("../assets/bg.jpg");
+  background-image: url("../assets/blog/bg.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -610,7 +610,7 @@ progress {
   margin-top: -1rem;
   margin-bottom: 1rem;
   font-size: 0.875em;
-  color: #6c757d;
+  color:white;
 }
 .blockquote-footer::before {
   content: "— ";
@@ -7822,7 +7822,7 @@ span,
 }
 
 .bg-dark {
-  --bs-bg-opacity: 1;
+  --bs-bg-opacity: 0.6;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
 }
 
