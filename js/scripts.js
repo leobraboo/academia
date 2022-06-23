@@ -12,4 +12,9 @@ ScrollReveal({
 	delay:400
 });
 
-ScrollReveal().reveal('.container' ,{delay:300 , origin:'left'} )
+ScrollReveal().reveal('.site-heading-upper' ,{delay:300 , origin:'left'} )
+ScrollReveal().reveal('.site-heading-lower' ,{delay:300 , origin:'right'} )
+ScrollReveal().reveal('.navbar' ,{delay:300 , origin:'left'} )
+ScrollReveal().reveal('.intro' ,{delay:300 , origin:'right'} )
+ScrollReveal().reveal('.row' ,{delay:300 , origin:'left'} )
+ScrollReveal().reveal('.footer' ,{delay:300 , origin:'right'} )
