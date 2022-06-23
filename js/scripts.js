@@ -12,9 +12,9 @@ ScrollReveal({
 	delay:400
 });
 
-ScrollReveal().reveal('.site-heading-upper' ,{delay:300 , origin:'left'} )
-ScrollReveal().reveal('.site-heading-lower' ,{delay:300 , origin:'right'} )
-ScrollReveal().reveal('.navbar' ,{delay:300 , origin:'left'} )
-ScrollReveal().reveal('.teste' ,{delay:300 , origin:'right'} )
-ScrollReveal().reveal('.row' ,{delay:300 , origin:'left'} )
-ScrollReveal().reveal('.product-item' ,{delay:300 , origin:'right'} )
+ScrollReveal().reveal('.site-heading-upper' ,{delay:200 , origin:'left'} )
+ScrollReveal().reveal('.site-heading-lower' ,{delay:200 , origin:'right'} )
+ScrollReveal().reveal('.navbar' ,{delay:200 , origin:'left'} )
+ScrollReveal().reveal('.teste' ,{delay:200 , origin:'right'} )
+ScrollReveal().reveal('.row' ,{delay:200 , origin:'left'} )
+ScrollReveal().reveal('.product-item' ,{delay:200 , origin:'right'} )
