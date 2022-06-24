@@ -7,7 +7,7 @@ window.sr = ScrollReveal ({reset: true})
 
 ScrollReveal({
 	reseat : true,
-	distance: '60px',
+	distance: '600px',
 	duration: 2000,
 	delay:400
 });
