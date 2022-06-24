@@ -11383,7 +11383,66 @@ p {
     z-index: 1;
   }
 }
+/* redes sociais */
+.cont{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color:rgba(0, 0, 0, 0.5);
+}
 
+.cont-inner{
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.cont-inner::before{
+  border-radius: 0.5rem;
+  content: "";
+  position: absolute;
+  top: -0.5rem;
+  bottom: -0.5rem;
+  left: -0.5rem;
+  right: -0.5rem;
+  border: 0.35rem solid rgba(0, 0, 0);
+  z-index: -1;
+}
+
+/* contatos */
+
+.textocontato{
+  width: auto;
+  height: auto;
+  font-size: 3rem;
+  line-height: 5rem ;
+  color: #01defc;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+}
+
+
+
+
+
+.containercontato{
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  background:rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+
+.iconwh{
+  width: 25px;
+  height: 25px;
+}
+
+/* planos */
 .containercard{
   width: 100%;
   height: auto;
@@ -11391,6 +11450,87 @@ p {
   justify-content: center;
   display: flex;
   flex-wrap: wrap; 
+}
+
+
+
+.whatsapp:hover{
+  background-image: radial-gradient(circle farthest-corner at 6.6% 12%, rgba(42,245,1,1) 7%, rgba(14,64,4,1) 100%);
+}
+
+.instagram{
+  width: 25%;
+  margin: 20px;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  justify-content: center; 
+  border-radius: 15px;
+  background-image:white;
+  color: white;
+}
+
+.instagram:hover{
+  background-image: radial-gradient(circle farthest-corner at 6.6% 12%, rgba(64,0,126,1) 20%, rgba(233,0,255,1) 100%);
+}
+
+
+.facebook{
+
+  width: 25%;
+  margin: 20px;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  justify-content: center;
+  flex-direction: column; 
+  border-radius: 15px;
+  background-image: white;
+  color: white;
+}
+.facebook:hover{
+  background-image: radial-gradient(circle farthest-corner at 6.6% 12%, rgba(1,63,245,1) 7%, rgba(9,3,44,1) 99%);
+}
+
+.iconInstagram{
+  background: rgba(0, 50, 25, 0.1);
+  border-radius: 20px;
+}
+
+.iconWhatsapp{
+  background: rgba(0, 50, 25, 0.1);
+  border-radius: 20px;
+}
+
+.iconFacebook{
+  background: rgba(0, 50, 25, 0.1);
+  border-radius: 20px;
+}
+
+@media(max-width: 650px){
+  .facebook{
+    width: 70% ;
+    height: 60vh;
+
+  }
+  .instagram{
+    width: 70% ;
+    height: 60vh;
+
+  }
+  .whatsapp{
+    width: 70% ;
+    height: 60vh;
+
+  }
+
+  .facebook:hover{
+    height: 75vh !important;
+    width: 85% !important;
+    
+  }
 }
 
 
