@@ -11454,7 +11454,7 @@ p {
 
 
 
-.whatsapp:hover{
+.fundo:hover{
   background-image: radial-gradient(circle farthest-corner at 6.6% 12%, rgba(42,245,1,1) 7%, rgba(14,64,4,1) 100%);
 }
 
@@ -11471,7 +11471,7 @@ p {
   color: white;
 }
 
-.instagram:hover{
+.fundo3:hover{
   background-image: radial-gradient(circle farthest-corner at 6.6% 12%, rgba(64,0,126,1) 20%, rgba(233,0,255,1) 100%);
 }
 
@@ -11490,7 +11490,7 @@ p {
   background-image: white;
   color: white;
 }
-.facebook:hover{
+.fundo2:hover{
   background-image: radial-gradient(circle farthest-corner at 6.6% 12%, rgba(1,63,245,1) 7%, rgba(9,3,44,1) 99%);
 }
 

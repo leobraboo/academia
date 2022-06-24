@@ -4490,7 +4490,6 @@ textarea.form-control-lg {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: rgba(0, 0, 0, 0.582);
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -4662,7 +4661,7 @@ span,
   font-size: 1rem;
   color: white;
   text-align: left;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
   border: 0;
   border-radius: 0;
   overflow-anchor: none;
@@ -4675,8 +4674,8 @@ span,
   }
 }
 .accordion-button:not(.collapsed) {
-  color: #0c63e4;
-  background-color: rgba(0, 0, 0) !important;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
 }
 .accordion-button:not(.collapsed)::after {
@@ -4775,21 +4774,6 @@ span,
   color: #6c757d;
 }
 
-.pagination {
-  display: flex;
-  padding-left: 0;
-  list-style: none;
-}
-
-.page-link {
-  position: relative;
-  display: block;
-  color: #0d6efd;
-  text-decoration: none;
-  background-color: #fff;
-  border: 1px solid #dee2e6;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
 @media (prefers-reduced-motion: reduce) {
   .page-link {
     transition: none;
@@ -5625,6 +5609,11 @@ span,
 }
 .modal-fullscreen .modal-footer {
   border-radius: 0;
+}
+
+.rodape{
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
 }
 
 @media (max-width: 575.98px) {
@@ -7353,7 +7342,7 @@ span,
 }
 
 .mb-4 {
-  margin-bottom: 1.5rem !important;
+  margin: 1.5rem !important;
 }
 
 .mb-5 {
